@@ -1,5 +1,3 @@
-
-
 //! Function para quando clicar nos números , eles aparecerem na tela
 function insert(num){
     //? Armazena na variável numero, o número escolhido 
@@ -9,7 +7,7 @@ function insert(num){
 }
 
 function clean(){
-    //! limoar todo o campo
+    //! limpar todo o campo
     document.getElementById('resultado').innerHTML = ""
 }
 
@@ -24,7 +22,7 @@ function calcular(){
     calculo = calculo.replace("^","**")
     calculo = calculo.replace("x","*")
     if(calculo){
-        //! 
+        //! a função eval() é usada para avaliar a expressão matemática contida na string calculo e calcular o resultado. O resultado é então atribuído de volta ao elemento HTML com o ID "resultado", substituindo o conteúdo anterior.
         document.getElementById('resultado').innerHTML = eval(calculo)
     }
 }
