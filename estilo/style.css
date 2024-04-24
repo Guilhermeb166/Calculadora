@@ -67,3 +67,10 @@
 .resposta{
     background-color: #0267ff;
 }
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+}
